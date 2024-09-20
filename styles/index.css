@@ -1,0 +1,77 @@
+
+:root {
+    --bordes: #d510db;
+    --1: #640c86;
+    --2: #5e0552;
+    --3: #541cbd;
+    --tipografia: century;
+}
+
+body {
+    width: 50%;
+    height: auto;
+    background-image: url(/ASSETS/FONDO.jpeg);
+    /* background-size: cover; */
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #C1A273; */
+    /* border: #261501; */
+    font-family: cursive;
+    overflow-x: hidden;
+}
+
+header {
+
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+
+main {
+    width: 100vw;
+}
+
+
+.Demon {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100vw;
+}
+
+
+.llamativo {
+
+    text-rendering: var(--tipografia);
+}
+
+img {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+
+  .gallery {
+    margin: auto;
+    width: 50vw;
+
+    /* organizar en cuadriculas we */
+    display: grid;
+    /* cuantas filas pondras we */
+    grid-template-rows: 1fr;
+    /* cuantas columnas we */
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+.gallery img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+}
